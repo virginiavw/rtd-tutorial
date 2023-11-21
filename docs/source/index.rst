@@ -7,12 +7,8 @@ A major technical limitation in the study of complex social behavior of freely m
 Individual experiments often incorporate thousands of video recordings, all of which need to be preprocessed and maintained; this includes locating individual experimental trials, identifying behavioral events within each trial, and choosing trimming points to focus on specific behavioral epochs. Manual preprocessing and project management requires unfeasible effort, often yielding video datasets with inaccuracies in timing or content, leading to inaccurate ML predictive classifications. 
 The Basic Trimmer allows the user to navigate to the timestamps of the trials start/end times and 
 
-.. note::
-   This project is under active development.
-
 Contents
 --------
 .. toctree::
-
+   installation
    usage
-   
