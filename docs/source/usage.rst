@@ -15,5 +15,5 @@ To use the Basic Trimmer, first install it through ?:
 Part 1: Getting the Trim Points
 ----------------
 
-.. image:: path/images/browse.png
+.. image:: images/browse.png
   :width: 400
