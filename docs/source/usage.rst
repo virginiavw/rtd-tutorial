@@ -14,6 +14,7 @@ To use the Basic Trimmer, first install it through ?:
 
 Part 1: Getting the Trim Points
 ----------------
+1. Navigate to the folder holding the videos to trim.
 
 .. image:: images/browse.png
-  :width: 400
+  :width: 700
