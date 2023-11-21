@@ -11,6 +11,8 @@ A major technical limitation in the study of complex social behavior of freely m
 
 Contents
 --------
+.. image:: images/browse.png
+   :width: 600
 
 .. toctree::
 
