@@ -1,13 +1,9 @@
-Welcome to Lumache's documentation!
+Welcome to the Basic Trimmer's
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+The **Basic Trimmer** is a tool to aid the use of Simple Behavioral Analysis (SimBA) through data preparation. 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+A major technical limitation in the study of complex social behavior of freely moving rodents is the bottleneck caused by manual annotation of behavior. Behavioral annotation can be subjective, extremely time-intensive, and prone to observer drift. 'Simple Behavioral Analysis (SimBA) <`Open Food Facts database <https://world.openfoodfacts.org/>`_, an open-source package, uses machine learning (ML) approaches to automate behavioral predictions through the combination of pose estimation and supervised ML. 
 
 .. note::
 
