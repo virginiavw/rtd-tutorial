@@ -135,13 +135,14 @@ To confirm, within your “test_folder” there should be a “clips” folder t
 
 You can now exit out of the GUI!
 
-Part 2: Getting the Trim Points
+Part 2: Trimming the Video
 ----------------
 
-Step 1. Run the "ffmpeg_trim.py" script and select the metadata.yml file that was saved in Part 1
+Step 1. Run the "ffmpeg_trim.py" script
 """""""""""
+Select the metadata.yml file that was saved in Part 1. This will tell the script what to clip/save videos as.
 
-Step 1. Allow the script to run
+Step 2. Allow the script to run
 """""""""""
 As it does, you will see your clips appear in the "clips" folder
 
