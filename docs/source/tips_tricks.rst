@@ -16,3 +16,8 @@ In this example, a folder that did not contain any videos was selected
 
 .. image:: images/output_log.png    
   :width: 500    
+
+.. autosummary::
+   :toctree: generated
+
+   Basic Trimmer
