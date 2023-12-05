@@ -17,3 +17,4 @@ Contents
 .. toctree::
    installation
    usage
+   tips_tricks
