@@ -78,7 +78,7 @@ Step 6: Click "Get trim points"
 .. image:: images/get_trial_timepoints.png
   :width: 400
 
-Step 7 - Step (a lot probably): Adding Trim Points
+Step 7: Adding Trim Points
 """""""""""
 
 a) Click "GOTO" to jump to the appropriate "Trim Start" point
@@ -122,4 +122,40 @@ g) Repeat this process as needed within a trial. If all the time is used (trim s
 **Put together, here is how to add a trim point**
 
 .. image:: images/fullprocess.gif
+  :width: 700
+
+Step 8: Click Save
+"""""""""""
+This will save all of the trim points, trials, and labels that you indicated (as displayed in the "Trim Points" box)
+The script will print all of the information that was saved in the "Output" box.
+To confirm, within your “test_folder” there should be a “clips” folder that contains your metadata, an excel file, and NumPy files containing relevant trim point information
+
+.. image:: images/saved.png
+  :width: 700
+
+You can now exit out of the GUI!
+
+Part 2: Getting the Trim Points
+----------------
+
+Step 1. Run the "ffmpeg_trim.py" script and select the metadata.yml file that was saved in Part 1
+"""""""""""
+
+Step 1. Allow the script to run
+"""""""""""
+As it does, you will see your clips appear in the "clips" folder
+
+.. image:: images/ffmpeg_run.gif
+  :width: 700
+
+.. image:: images/saved_clips.png
+  :width: 700
+
+When it is done, the terminal should print "Finished all trimming" 
+The trimmed clips should now be found in the "clips" folder. Yay!
+
+.. image:: images/ffmpeg_finished.png
+  :width: 700
+
+.. image:: images/clips_finished.prg
   :width: 700
