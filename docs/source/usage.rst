@@ -159,3 +159,5 @@ The trimmed clips should now be found in the "clips" folder. Yay!
 
 .. image:: images/clips_finished.png
   :width: 500
+
+**Congrats! You have now finished trimming your videos!**
