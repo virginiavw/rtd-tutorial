@@ -10,7 +10,16 @@ To use the Basic Trimmer, first install it through ?:
 
 .. code-block:: console
 
-   hmm!
+   l8ter
+
+The Process
+------------
+The Basic Trimmer is split into two portions - Part 1: Getting the Trim Points and Part 2: Trimming the Videos.
+
+In Part One, you will navigate through your video and select the specific points that you would like to trim. You will also be able to type in a label for these clips that will correspond to what the clip will be named after being trimmer. This part will output a metadata file containing all of data that you just collected (trimming start/end points, labels). This file will then be used in part 2.
+
+In Part Two, the metadata will be taken in along with the video and the trimmed clips will be saved.
+
 
 Part 1: Getting the Trim Points
 ----------------
@@ -85,8 +94,14 @@ c) Once you have navigated to the ending frame of that trial, Click the appropri
 
 d) Click the appropriate “Add trim pts Label” to type in your label
 
+::
+
+   These labels will be used to name the clips once they are saved. 
+   For example, if you are clipping a portion of trial 3 from 10:16 - 10:35 and typed in the label "pre_rew", 
+   then the subsequent trimmed clip may be saved as "mouse01_D01_t03_pre_rew"
+
 .. image:: images/trim_label.png
-  :width: 700
+  :width: 400
 
 e) Click the “+” button to add the trim point to the list at the bottom. 
 
