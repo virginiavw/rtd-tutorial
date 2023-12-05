@@ -146,16 +146,16 @@ Step 1. Allow the script to run
 As it does, you will see your clips appear in the "clips" folder
 
 .. image:: images/ffmpeg_run.gif
-  :width: 700
+  :width: 500
 
 .. image:: images/saved_clips.png
-  :width: 700
+  :width: 500
 
 When it is done, the terminal should print "Finished all trimming" 
 The trimmed clips should now be found in the "clips" folder. Yay!
 
 .. image:: images/ffmpeg_finished.png
-  :width: 700
+  :width: 500
 
-.. image:: images/clips_finished.prg
-  :width: 700
+.. image:: images/clips_finished.png
+  :width: 500
