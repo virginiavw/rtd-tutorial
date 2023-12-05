@@ -67,9 +67,9 @@ Step 6: Click "Get trim points"
 
 
 .. image:: images/get_trial_timepoints.png
-  :width: 700
+  :width: 400
 
-Step 7 - Step (a lot probably)
+Step 7 - Step (a lot probably): Adding Trim Points
 """""""""""
 
 a) Click "GOTO" to jump to the appropriate "Trim Start" point
@@ -78,12 +78,33 @@ b) Scroll/use frame buttons until you find the end frame of interest. In this ex
 .. image:: images/GOTO.png
   :width: 700
 
-c) Now, click the appropriate “Trim end” white box. Your current frame timestamp will replace the previous one
+c) Once you have navigated to the ending frame of that trial, Click the appropriate “Trim end” white box. Your current frame timestamp will replace the previous one
+
+.. image:: images/trim_end.png
+  :width: 700
+
 d) Click the appropriate “Add trim pts Label” to type in your label
+
+.. image:: images/trim_label.png
+  :width: 700
+
 e) Click the “+” button to add the trim point to the list at the bottom. 
+
 ::
 
 Notice that the current frame moves from the end to the start, and that the end now has the original ending point. This is so that the next trim point can be found after this clip. 
 
+.. image:: images/addingtotrimpoints.gif
+  :width: 400
+
 f) To record the start time of the next clip, navigate to the desired starting frame using the scroller/buttons and then click the appropriate “Trim start” white box.
+
+.. image:: images/trim_start.png
+  :width: 700
+
 g) Repeat this process as needed within a trial. If all the time is used (trim start > trim end), then the text will appear red
+
+**Put together, here is how to add a trim point**
+
+.. image:: images/fullprocess.gif
+  :width: 700
